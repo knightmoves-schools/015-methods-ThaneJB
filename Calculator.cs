@@ -2,11 +2,10 @@
 public class Calculator
 {
     // Add your code here
-    public int total = 1;
+    
 
-    public int Square(){
-        total = total * total;
+    public int Square(int number){
 
-        return total;
+        return number * number;
     }
 }
